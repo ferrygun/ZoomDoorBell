@@ -10,8 +10,8 @@ const token = jwt.sign(payload, config.APISecret);
 //console.log(token);
 
 const rp = require('request-promise');
-email = "djajafer@gmail.com";
-const meetingID = '77640114398';
+email = "YOUR_EMAIL_ADDR";
+const meetingID = 'MEETING_ID';
 
 var options = {    
 
