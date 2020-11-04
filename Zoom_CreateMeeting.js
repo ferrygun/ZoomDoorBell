@@ -11,7 +11,7 @@ const token = jwt.sign(payload, config.APISecret);
 //console.log(token);
 
 const rp = require('request-promise');
-email = "djajafer@gmail.com";
+email = "YOUR_EMAIL_ADDR";
 var options = {
     method: "POST",
     uri: "https://api.zoom.us/v2/users/" + email + "/meetings",
